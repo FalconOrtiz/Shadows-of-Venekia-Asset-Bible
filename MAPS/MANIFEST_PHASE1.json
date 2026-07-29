@@ -1,0 +1,23 @@
+{
+  "pack": "SoV_MapPack_PHASE1",
+  "version": "PHASE1.1",
+  "text_free": true,
+  "chroma": "#FF00FF",
+  "target_tile": {"w": 64, "h": 32},
+  "target_prop": 64,
+  "complete": true,
+  "zones": [
+    "scorched_highlands",
+    "whispering_jungle",
+    "city_venekia",
+    "cursed_coast",
+    "mines_of_robir"
+  ],
+  "drive": {
+    "phase1_complete": "1afrk6SWo_gZiBO03-5CAKOtKqQ77HEpq",
+    "m2b_coast_mines": "1PNbpPbK8nPaANpB71Etgp9Rdkl0R3E3H",
+    "clean_textfree": "1zt_F_4tcy4H9O26PLAeu4_qORznoiwD1",
+    "folder": "1JiKCX5zEypRHgscJ7roMqJhkNYJcH1G8"
+  },
+  "generated": "2026-07-29"
+}

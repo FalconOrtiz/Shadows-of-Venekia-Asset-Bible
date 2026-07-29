@@ -1,26 +1,50 @@
-# SoV Map Packs — Phase 1 Complete
+# Shadows of Venekia — Map Packs PHASE1 COMPLETE
 
-| Pack | Zona | Commit | Drive ZIP |
-|------|------|--------|-----------|
-| **M0** | Scorched Highlands | `8d9af85` | [download](https://drive.google.com/file/d/11UL-c1GzJrQMF3Ln_zr6M2THPISH6yJO/view) |
-| **M1** | Whispering Jungle | `774eeb8` | [download](https://drive.google.com/file/d/15SvETirDW0DfcaN1-ZANHmWx13txtTfq/view) |
-| **M2** | City of Venekia (hub) | this | SoV_MapPack_M2_City.zip |
+**Status:** ✅ All 5 zones ready · CLEAN text-free atlases · Build drop-in
 
-## M2 City Hub
-- 12 floors + 8 walls + 4 portal pads
-- 14 props (blacksmith, quest, houses, merchant, Orders shrine, inn…)
-- Demo **32×32** plaza+streets, **no combat** (NPCs only)
-- Portals → highlands / jungle / coast / mines
-- Waypoint city + chest + lamps + fountain
+## Primary download (use this)
+**SoV_MapPack_PHASE1_COMPLETE_CLEAN.zip** (9.8 MB)  
+→ https://drive.google.com/file/d/1afrk6SWo_gZiBO03-5CAKOtKqQ77HEpq/view?usp=drivesdk  
 
-## Hand-off Build
+Folder: https://drive.google.com/drive/folders/1JiKCX5zEypRHgscJ7roMqJhkNYJcH1G8
+
+## Zones
+| Zone | Demo | Atlases | Hub |
+|------|------|---------|-----|
+| scorched_highlands | 40×30 | floors, edges, hazards, props | no |
+| whispering_jungle | 40×30 | floors, edges, hazards, props | no |
+| city_venekia | 32×32 | floors, edges, portals, props | **yes** |
+| cursed_coast | 40×30 | floors, edges+hazards, props | no |
+| mines_of_robir | 40×30 | floors, edges+hazards, props | no |
+
+## Build path
 ```
 public/assets/pixel2d/maps/
   scorched_highlands/
   whispering_jungle/
   city_venekia/
+  cursed_coast/
+  mines_of_robir/
 ```
-Each: atlases + meta.json + maps/*_demo/layers/
+Each contains: atlas_*.png + meta.json + maps/*_demo/layers/{ground,collision,props,spawns}.json
 
-## Optional next
-Cursed Coast + Mines of Robir (same M0 template)
+## Pipeline
+1. Chroma `#FF00FF` → transparent
+2. Slice grid (measure first cell)
+3. Scale tiles → 64×32, props → 64×64
+4. Load meta + layers
+5. Portals ↔ enterZone / goCity
+
+## Individual zips (also CLEAN)
+- M0 Highlands
+- M1 Jungle
+- M2 City
+- M2b Coast+Mines
+- CLEAN TextFree (atlases only)
+
+## Commits history
+- M0: 8d9af85
+- M1: 774eeb8
+- M2 City: 755f0b0
+- CLEAN regen: 91f903f
+- This PHASE1 complete: see latest
