@@ -1,0 +1,22 @@
+{
+  "pack": "SoV_MapPack_PHASE2",
+  "version": "PHASE2.0",
+  "text_free": true,
+  "chroma": "#FF00FF",
+  "complete": true,
+  "zones": [
+    "eternal_plains",
+    "crystal_peaks",
+    "eternal_spire_f1",
+    "eternal_spire_f2",
+    "eternal_spire_f3",
+    "eternal_spire_f4",
+    "dungeon_generic_f1",
+    "dungeon_generic_f2",
+    "dungeon_generic_f3",
+    "dungeon_generic_f4",
+    "boss_arena_generic"
+  ],
+  "support": ["transitions", "minimap"],
+  "generated": "2026-07-29"
+}

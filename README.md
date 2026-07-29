@@ -4,26 +4,19 @@
 
 ---
 
-## ✅ MAP PHASE1 COMPLETE (implement now)
+## Map packs
 
-| | |
-|--|--|
-| **Zip** | [SoV_MapPack_PHASE1_COMPLETE_CLEAN.zip](https://drive.google.com/file/d/1afrk6SWo_gZiBO03-5CAKOtKqQ77HEpq/view) |
-| **Zones** | 5 (Highlands · Jungle · **City hub** · Coast · Mines) |
-| **Atlases** | Text-free CLEAN |
-| **Docs** | [MAPS/](MAPS/) |
+| Phase | Zip | Status |
+|-------|-----|--------|
+| **PHASE1** | [COMPLETE CLEAN](https://drive.google.com/file/d/1afrk6SWo_gZiBO03-5CAKOtKqQ77HEpq/view) | ✅ 5 zones hub+combat |
+| **PHASE2** | See Drive `SoV_MapPack_PHASE2_COMPLETE_CLEAN.zip` | ✅ Plains · Peaks · Spire · Dungeons · Boss |
+| F1.1 chars/UI | [35 assets](https://drive.google.com/file/d/1NKI7fwlIQcjxMU8Z6WRw_dkwMbxNIL5u/view) | ✅ |
 
-### Also available
-- [F1.1 Character/UI pack](https://drive.google.com/file/d/1NKI7fwlIQcjxMU8Z6WRw_dkwMbxNIL5u/view) (35 assets)
-- Drive folder: https://drive.google.com/drive/folders/1JiKCX5zEypRHgscJ7roMqJhkNYJcH1G8
+Drive folder: https://drive.google.com/drive/folders/1JiKCX5zEypRHgscJ7roMqJhkNYJcH1G8
 
-### Build drop
+Docs: [MAPS/](MAPS/)
+
+### Build path
 ```
 public/assets/pixel2d/maps/{zone}/
 ```
-
-See **MAPS/IMPLEMENTATION.md** for loader steps.
-
----
-
-Repo: FalconOrtiz/Shadows-of-Venekia-Asset-Bible
