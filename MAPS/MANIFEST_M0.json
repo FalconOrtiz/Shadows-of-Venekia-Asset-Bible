@@ -1,0 +1,13 @@
+{
+  "pack": "SoV_MapPack_M0",
+  "version": "M0.1",
+  "biome": "scorched_highlands",
+  "tile_w": 64,
+  "tile_h": 32,
+  "prop_size": 64,
+  "acceptance_M0": true,
+  "tiles_count": {"floors": 12, "edges": 8, "transitions": 4, "hazards": 3},
+  "props_count": 12,
+  "demo_map": {"width": 40, "height": 30, "seed": 7741},
+  "drive_zip": "SoV_MapPack_M0_Highlands.zip"
+}
