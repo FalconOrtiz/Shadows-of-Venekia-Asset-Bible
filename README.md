@@ -5,24 +5,26 @@
 
 ---
 
-## ✅ LATEST PUSH — F1.1
+## ✅ LATEST — F1.1 (35 assets)
 
 | | |
 |--|--|
 | **Commit** | `9473720` |
-| **Full SHA** | `947372017cec86ff42895d4121382b035b763510` |
+| **SHA** | `947372017cec86ff42895d4121382b035b763510` |
 | **Branch** | `main` |
 | **Assets** | **35 named** |
-| **Version** | F1.1 |
-| **Binary** | `SoV_F1_CleanPixel.zip` (12 MB local) |
 
-### What's in F1.1
+### 📥 Download ZIP (Google Drive)
+**SoV_F1_CleanPixel_v1.1_35assets.zip** (12 MB)  
+→ https://drive.google.com/file/d/1NKI7fwlIQcjxMU8Z6WRw_dkwMbxNIL5u/view?usp=drivesdk  
+
+Folder: https://drive.google.com/drive/folders/1JiKCX5zEypRHgscJ7roMqJhkNYJcH1G8
+
+### What's inside
 - 3 Bases + 4 Finals
 - 5 Zones (clear ground)
-- **UI individual pieces** (bars, buttons, menu, character panel, item frames D→Legendary, currency)
-- **Blacksmith** station
-- **Quest** assets (giver, markers, dialogue)
-- **Houses** buildings pack
+- **UI individual** (bars, buttons, menu, character panel, item frames, currency)
+- **Blacksmith** · **Quest** · **Houses**
 - **Materials** individual (12)
 - **Monsters + Bosses** individual
 - Skill icons + VFX + cinematics
