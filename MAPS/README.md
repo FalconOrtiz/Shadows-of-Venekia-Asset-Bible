@@ -1,34 +1,25 @@
 # SoV Map Packs
 
 ## M0 – Scorched Highlands ✅
+Zip: `SoV_MapPack_M0_Highlands.zip`  
+Drive: https://drive.google.com/file/d/11UL-c1GzJrQMF3Ln_zr6M2THPISH6yJO/view
 
-**Zip Drive:** https://drive.google.com/file/d/ (see folder) `SoV_MapPack_M0_Highlands.zip`
+## M1 – Whispering Jungle ✅
+Zip: `SoV_MapPack_M1_Jungle.zip`  
 
 ### Atlases
-- `atlas_highlands_floors.png` — 12 floors 64×32 iso
-- `atlas_highlands_edges.png` — 8 cliffs
-- `atlas_highlands_transitions_hazards.png` — 4 trans + 3 hazards
-- `atlas_highlands_props.png` — 12 props 64×64
-- `atlas_highlands_master.png`
-- `atlas_highlands_collision_ref.png` — green=walk red=block orange=hazard
+- atlas_jungle_floors.png (12)
+- atlas_jungle_edges.png (8 vine walls)
+- atlas_jungle_transitions_hazards.png
+- atlas_jungle_props.png (12)
+- atlas_jungle_master.png
+- atlas_jungle_collision_ref.png
 
 ### Demo map 40×30
-`maps/scorched_highlands_demo/`
-- meta.json (spawn, portals, bounds)
-- layers/ground.json
-- layers/collision.json (0 walk / 1 block / 2 hazard)
-- layers/props.json
-- layers/spawns.json (5 enemies, chest, mining, waypoint)
-
-### Hand-off Build
-```
-public/assets/pixel2d/maps/scorched_highlands/
-  atlas_*.png
-  meta.json
-  maps/scorched_highlands_demo/
-```
-Loader → tilemap layers → collision → spawns → camera clamp
+`maps/whispering_jungle_demo/` — ground, collision, props, spawns  
+Portals: to_highlands, to_coast, to_venekia  
+Enemies: venom_queen, corrupted_crow, seeder_slug…
 
 ### Next
-- M1 Whispering Jungle
-- M2 City of Venekia
+- M2 City of Venekia hub
+- M2 Cursed Coast + Mines of Robir

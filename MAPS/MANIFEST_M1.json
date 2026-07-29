@@ -1,0 +1,12 @@
+{
+  "pack": "SoV_MapPack_M1",
+  "version": "M1.0",
+  "biome": "whispering_jungle",
+  "tile_w": 64,
+  "tile_h": 32,
+  "acceptance_M1": true,
+  "tiles_count": {"floors": 12, "edges": 8, "transitions": 4, "hazards": 3},
+  "props_count": 12,
+  "demo_map": {"width": 40, "height": 30, "seed": 8821},
+  "drive_zip": "SoV_MapPack_M1_Jungle.zip"
+}
