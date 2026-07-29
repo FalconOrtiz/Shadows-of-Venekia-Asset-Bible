@@ -1,0 +1,22 @@
+{
+  "pack": "SoV_MapPack_PHASE1_WIRED",
+  "version": "PHASE1.2_WIRED",
+  "wiring_version": "2.0",
+  "layout_style": "designed_regions_paths_pools",
+  "text_free": true,
+  "chroma": "#FF00FF",
+  "drive_file_id": "1DPAxwp8tNYYQ-d2Wu7cuKiG4bocMg6Xt",
+  "zones": [
+    "scorched_highlands",
+    "whispering_jungle",
+    "city_venekia",
+    "cursed_coast",
+    "mines_of_robir"
+  ],
+  "fixed": [
+    "random ground noise removed",
+    "tile id to atlas index contract",
+    "atlas_layouts",
+    "path-centric demos"
+  ]
+}
