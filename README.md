@@ -1,39 +1,33 @@
 # Shadows of Venekia – Complete Asset Bible
 
-**Style locked (F1):** pixel art 2D limpio · idle-RPG readable  
+**Style locked:** pixel art 2D limpio · idle-RPG readable  
 **Palette:** deep charcoal · blood crimson · toxic green · molten orange · cold cyan · desaturated gold
 
 ---
 
-## ✅ F0 + F1 COMPLETE (2026-07-29)
+## ✅ LATEST PUSH — F1.1
 
-| Wave | Status | Contents |
-|------|--------|----------|
-| **F0** | ✅ | Warrior / Hunter / Mage bases + 1 zone + HUD + MANIFEST |
-| **F1** | ✅ | 4 Finals + 5 Zones + Skill icons + VFX + Monsters + Waypoints + Items + Cinematics |
+| | |
+|--|--|
+| **Commit** | `9473720` |
+| **Full SHA** | `947372017cec86ff42895d4121382b035b763510` |
+| **Branch** | `main` |
+| **Assets** | **35 named** |
+| **Version** | F1.1 |
+| **Binary** | `SoV_F1_CleanPixel.zip` (12 MB local) |
 
-**Total named assets:** 23  
-**Binary:** `SoV_F1_CleanPixel.zip` (8.1 MB local artifacts)
+### What's in F1.1
+- 3 Bases + 4 Finals
+- 5 Zones (clear ground)
+- **UI individual pieces** (bars, buttons, menu, character panel, item frames D→Legendary, currency)
+- **Blacksmith** station
+- **Quest** assets (giver, markers, dialogue)
+- **Houses** buildings pack
+- **Materials** individual (12)
+- **Monsters + Bosses** individual
+- Skill icons + VFX + cinematics
 
-### Art Rules
-1. Character combat: **256–512 px** height  
-2. Scene: **1920×1080** clear ground zone  
-3. UI: atlas / pieces + stable names  
-4. Style: **pixel art 2D limpio**  
-5. Skills: icon 64/128 + VFX cast/impact  
-
-See **[F0/](F0/)** for MANIFEST + tree + rules.
-
----
-
-## Packs included
-- Characters: 3 Bases + Imperial Warlord · Plague Assassin · Celestial Vanguard · Void Weaver  
-- Zones: Scorched Highlands · Whispering Jungle · Cursed Coast · Mines of Robir · City of Venekia  
-- Skills: icons + VFX for Warrior / Hunter / Mage  
-- Monsters/Bosses (El Silbón, La Llorona, Venom Queen…)  
-- Waypoints · Crafting · Portals  
-- Items · Materials · Grade frames  
-- Death / Level-up / Main Menu  
+Docs: **[F0/](F0/)**  ·  MANIFEST: **[F0/manifest/MANIFEST.json](F0/manifest/MANIFEST.json)**
 
 ---
 
