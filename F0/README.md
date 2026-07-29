@@ -1,33 +1,46 @@
-# Shadows of Venekia – F0 Illustrated (Clean Pixel Art 2D)
+# Shadows of Venekia – F1 Clean Pixel Art 2D (Full Production Pack)
 
-**Acceptance Criterion F0 MET** ✅
+**Style:** pixel art 2D limpio · idle-RPG readable  
+**F0 ✅ + F1 ✅** · 2026-07-29
 
-## Contents
-- `00_ArtRules/ART_RULES.md` – locked art rules
-- `01_Characters/Bases/` – warrior, hunter, mage (combat ready)
-- `02_Zones/` – zone_scorched_highlands (16:9 clear ground)
-- `03_HUD/` – hud_base_atlas
-- `manifest/MANIFEST.json` – machine-readable inventory
+## Art Rules (locked)
+1. Character combat height: 256–512 px  
+2. Scene: 1920×1080 / 16:9 with **clear ground zone** (lower ~40%)  
+3. UI: atlas or loose pieces + padding + stable names  
+4. Style: clean modern pixel (not ultra-crunchy)  
+5. Skills: icon 64/128 + VFX cast/impact  
 
-## Style
-Clean modern pixel art 2D / idle-RPG. Readable silhouettes, limited palette, 256–512px character height target.
+## Tree
+```
+00_ArtRules/ART_RULES.md
+01_Characters/
+  Bases/   char_warrior_base · char_hunter_base · char_mage_base
+  Finals/  char_imperial_warlord · char_plague_assassin · char_celestial_vanguard · char_void_weaver
+02_Zones/  scorched_highlands · whispering_jungle · cursed_coast · mines_of_robir · city_venekia
+03_HUD/    hud_base_atlas
+04_SkillIcons/
+  Warrior/ icons_warrior_base (8 skills)
+  Hunter/  icons_hunter_base
+  Mage/    icons_mage_base
+05_VFX/
+  Warrior/ vfx_warrior_base (cast+impact)
+  Hunter/  vfx_hunter_base
+  Mage/    vfx_mage_base
+06_Monsters_Bosses/ monsters_bosses_pack
+07_Waypoints_Interactables/ waypoints_stations_pack
+08_Items/ items_weapons_materials
+10_Cinematics/ cinematics_death_levelup_menu
+manifest/MANIFEST.json
+```
 
-## Palette
-deep charcoal · blood crimson · toxic green · molten orange · cold cyan · desaturated gold
+## Counts
+- 3 Bases + 4 Finals  
+- 5 Zones (all clear ground)  
+- 3 Skill icon packs + 3 VFX packs  
+- Monsters, Waypoints, Items, Cinematics  
+- **23 named production assets**
 
-## Art Rules (summary)
-1. Character combat resolution: 256–512 px height
-2. Scene background: 1920×1080 (16:9) with clear ground zone
-3. UI in atlas or loose pieces with padding + stable names
-4. Style: pixel art 2D limpio
-5. Each important skill: icon 64/128 + 1 VFX cast/impact
+## Binary
+Local: `SoV_F1_CleanPixel.zip` (8.1 MB) in artifacts
 
-## Local binary
-`SoV_F0_Illustrated.zip` in artifacts (contains the actual JPGs)
-
-Asset IDs (Imagine):
-- char_warrior_base: 3df1f5aa-cb05-49b5-9011-40b83a62557b
-- char_hunter_base: 36d946cd-0d65-4ebc-876b-4266eac1a17b
-- char_mage_base: 8c62779a-14c3-4232-aa4b-c407da1c5696
-- zone_scorched_highlands: 351adec2-ccfd-4853-8394-165e14728d9d
-- hud_base_atlas: 24a106fa-69bd-464c-944a-a033a230a2b0
+Ready for Grok Build / Canvas 2D combat.
