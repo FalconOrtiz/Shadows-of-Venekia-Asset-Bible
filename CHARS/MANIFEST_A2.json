@@ -1,0 +1,10 @@
+{
+  "pack": "SoV_WaveA2",
+  "version": "A2.0",
+  "format": "individual_png",
+  "chroma": "#FF00FF",
+  "style": "pixel art 2D limpio F0/F1",
+  "classes_base": ["warrior_base", "hunter_base", "mage_base"],
+  "classes_final": ["celestial_vanguard", "eagle_eye_legend", "primordial_mage"],
+  "tiles_pilot": "scorched_highlands"
+}

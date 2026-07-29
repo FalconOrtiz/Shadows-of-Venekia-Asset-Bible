@@ -1,18 +1,14 @@
 # Shadows of Venekia – Asset Bible
 
-## Latest (use these)
+## Use in Build (priority order)
 
-| Pack | Drive | Purpose |
-|------|-------|--------|
-| **Anim F2** 3 classes | folder SoV_Anim_F2_WarriorHunterMage.zip | walk + cast + VFX |
-| **Tiles Seamless v1** | SoV_Tiles_Seamless_v1.zip | real floor diamonds #FF00FF |
-| **PHASE1 WIRED v2** | [maps](https://drive.google.com/file/d/1DPAxwp8tNYYQ-d2Wu7cuKiG4bocMg6Xt/view) | designed layouts |
-| F1.1 UI/chars stills | [35 assets](https://drive.google.com/file/d/1NKI7fwlIQcjxMU8Z6WRw_dkwMbxNIL5u/view) | HUD |
+1. **Wave A.2 Individual Frames** — characters walk/cast without atlas slice  
+   Drive: `SoV_WaveA2_IndividualFrames.zip` in folder 1JiKCX5zEypRHgscJ7roMqJhkNYJcH1G8
+2. **PHASE1 WIRED v2** — designed map layouts  
+3. **Tiles Seamless v1** — floor atlases (or A2 individual Highlands pilot)  
+4. **Anim F2 sheets** — fallback multi-frame sheets  
+5. **F1.1** — HUD/UI
+
+Docs: CHARS/ · MAPS/
 
 Folder: https://drive.google.com/drive/folders/1JiKCX5zEypRHgscJ7roMqJhkNYJcH1G8
-
-### Build paths
-```
-public/assets/pixel2d/characters/{warrior_base,hunter_base,mage_base}/
-public/assets/pixel2d/maps/{zone}/   # seamless atlases + WIRED layers
-```
