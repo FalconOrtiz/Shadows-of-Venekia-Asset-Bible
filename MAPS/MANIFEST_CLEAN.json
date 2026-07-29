@@ -1,0 +1,9 @@
+{
+  "pack": "SoV_MapPack_CLEAN",
+  "version": "CLEAN.1",
+  "text_free": true,
+  "chroma": "#FF00FF",
+  "biomes": 5,
+  "drive_zip": "SoV_MapPack_CLEAN_TextFree_v1.zip",
+  "replaces": ["M0 concept labeled sheets", "M1 labeled", "M2 labeled", "M2b labeled"]
+}
