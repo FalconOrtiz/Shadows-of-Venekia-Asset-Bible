@@ -1,25 +1,26 @@
-# SoV Map Packs
+# SoV Map Packs — Phase 1 Complete
 
-## M0 – Scorched Highlands ✅
-Zip: `SoV_MapPack_M0_Highlands.zip`  
-Drive: https://drive.google.com/file/d/11UL-c1GzJrQMF3Ln_zr6M2THPISH6yJO/view
+| Pack | Zona | Commit | Drive ZIP |
+|------|------|--------|-----------|
+| **M0** | Scorched Highlands | `8d9af85` | [download](https://drive.google.com/file/d/11UL-c1GzJrQMF3Ln_zr6M2THPISH6yJO/view) |
+| **M1** | Whispering Jungle | `774eeb8` | [download](https://drive.google.com/file/d/15SvETirDW0DfcaN1-ZANHmWx13txtTfq/view) |
+| **M2** | City of Venekia (hub) | this | SoV_MapPack_M2_City.zip |
 
-## M1 – Whispering Jungle ✅
-Zip: `SoV_MapPack_M1_Jungle.zip`  
+## M2 City Hub
+- 12 floors + 8 walls + 4 portal pads
+- 14 props (blacksmith, quest, houses, merchant, Orders shrine, inn…)
+- Demo **32×32** plaza+streets, **no combat** (NPCs only)
+- Portals → highlands / jungle / coast / mines
+- Waypoint city + chest + lamps + fountain
 
-### Atlases
-- atlas_jungle_floors.png (12)
-- atlas_jungle_edges.png (8 vine walls)
-- atlas_jungle_transitions_hazards.png
-- atlas_jungle_props.png (12)
-- atlas_jungle_master.png
-- atlas_jungle_collision_ref.png
+## Hand-off Build
+```
+public/assets/pixel2d/maps/
+  scorched_highlands/
+  whispering_jungle/
+  city_venekia/
+```
+Each: atlases + meta.json + maps/*_demo/layers/
 
-### Demo map 40×30
-`maps/whispering_jungle_demo/` — ground, collision, props, spawns  
-Portals: to_highlands, to_coast, to_venekia  
-Enemies: venom_queen, corrupted_crow, seeder_slug…
-
-### Next
-- M2 City of Venekia hub
-- M2 Cursed Coast + Mines of Robir
+## Optional next
+Cursed Coast + Mines of Robir (same M0 template)

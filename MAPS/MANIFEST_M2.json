@@ -1,0 +1,12 @@
+{
+  "pack": "SoV_MapPack_M2",
+  "version": "M2.0",
+  "biome": "city_venekia",
+  "hub": true,
+  "tile_w": 64,
+  "tile_h": 32,
+  "acceptance_M2": true,
+  "demo_map": {"width": 32, "height": 32, "seed": 9901},
+  "portals": ["scorched_highlands", "whispering_jungle", "cursed_coast", "mines_of_robir"],
+  "drive_zip": "SoV_MapPack_M2_City.zip"
+}
