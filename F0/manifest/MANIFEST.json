@@ -1,0 +1,54 @@
+{
+  "project": "Shadows of Venekia",
+  "version": "F0.1",
+  "style": "clean pixel art 2D / idle-RPG",
+  "art_rules": "00_ArtRules/ART_RULES.md",
+  "generated": "2026-07-29",
+  "acceptance_F0": true,
+  "assets": [
+    {
+      "id": "char_warrior_base",
+      "path": "01_Characters/Bases/char_warrior_base.jpg",
+      "type": "character",
+      "class": "Warrior",
+      "tier": "Base",
+      "resolution_note": "combat 256-512px height target",
+      "asset_id": "3df1f5aa-cb05-49b5-9011-40b83a62557b"
+    },
+    {
+      "id": "char_hunter_base",
+      "path": "01_Characters/Bases/char_hunter_base.jpg",
+      "type": "character",
+      "class": "Hunter",
+      "tier": "Base",
+      "resolution_note": "combat 256-512px height target",
+      "asset_id": "36d946cd-0d65-4ebc-876b-4266eac1a17b"
+    },
+    {
+      "id": "char_mage_base",
+      "path": "01_Characters/Bases/char_mage_base.jpg",
+      "type": "character",
+      "class": "Mage",
+      "tier": "Base",
+      "resolution_note": "combat 256-512px height target",
+      "asset_id": "8c62779a-14c3-4232-aa4b-c407da1c5696"
+    },
+    {
+      "id": "zone_scorched_highlands",
+      "path": "02_Zones/zone_scorched_highlands.jpg",
+      "type": "zone_background",
+      "resolution": "16:9 / ~1920x1080",
+      "ground_zone": "lower 40% clear for character placement",
+      "asset_id": "351adec2-ccfd-4853-8394-165e14728d9d"
+    },
+    {
+      "id": "hud_base_atlas",
+      "path": "03_HUD/hud_base_atlas.jpg",
+      "type": "ui_hud",
+      "pieces": ["hp_bar", "mana_bar", "rage_bar", "skill_hotbar_6", "minimap_frame", "currency_icons", "inventory_btn"],
+      "padding": true,
+      "stable_names": true,
+      "asset_id": "24a106fa-69bd-464c-944a-a033a230a2b0"
+    }
+  ]
+}
